@@ -1,3 +1,28 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 1em 10em;
+    margin: 3em 8em;
+    outline: 2px solid red;
+}
+ol li {
+    font-size: 20px;
+}
 h1 {
-    color:aqua
+    text-align: center;
+    color: black;
+}
+h2 {
+    text-align: center;
+    color:#006EB6
+}
+p {
+    text-align: center;
+    margin: 20px, 20em;
+}
+main {
+    margin: 0 auto;
+}
+img {
+    width: 150px;
 }
