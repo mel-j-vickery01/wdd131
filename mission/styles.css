@@ -4,7 +4,7 @@ main {
     margin: 3em 8em;
     max-width: 600px;
 }
-body {
+ body {
     margin: 3em;
     outline: 2px solid grey;
     padding: 2em;
@@ -18,7 +18,7 @@ h1 {
 .title {
     letter-spacing: 8px;
 }
-#subtitle {
+h2 {
     text-align: center;
     color:#006EB6;
     text-transform: uppercase;
@@ -42,4 +42,14 @@ img {
 }
 ol li {
     margin: 1em;
+}
+.dark {
+    background-color: black;
+    color: white;
+}
+.dark h1 {
+    color: white;
+}
+.dark h2 {
+    color: lightblue;
 }
