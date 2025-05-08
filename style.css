@@ -1,0 +1,9 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+a {
+    background-color: aqua;
+    padding: 0 auto;
+    
+}
