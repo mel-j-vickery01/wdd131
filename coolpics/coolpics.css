@@ -10,17 +10,28 @@
 --primary-font: Arial, Helvetica,sans-serif;
 --secondary-font: Mooli, san-serif;
 }
-header {
+header, footer {
     font-family: var(--primary-font);
     font-size: 1.2em;
     background-color: var(--primary-color);
     text-align: center;
+    color: white;
+}
+li{
+    text-decoration: underline;
 }
 button{
     background-color: var(--primary-color);
     border: 0;
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--secondary-font);
 }
 #gallery img {
+    justify-content: center;
     max-width: 250px;
     object-fit: cover;
 }
@@ -29,5 +40,25 @@ button{
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
-
+    margin: 0 auto;
+}
+@media screen and (min-width: 701px){
+    #gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+    li{
+        display: none;
+    }
+}
+@media screen and (min-width: 1001px){
+    #gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    li{
+        display: inline;
+        padding: 20px;
+    }
+    button{
+        display: none;
+    }
 }
