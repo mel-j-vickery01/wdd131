@@ -17,8 +17,8 @@ header, footer {
     text-align: center;
     color: white;
 }
-li{
-    text-decoration: underline;
+.hide{
+    display: none;
 }
 button{
     background-color: var(--primary-color);
@@ -46,7 +46,7 @@ p{
     #gallery{
         grid-template-columns: 1fr 1fr;
     }
-    li{
+    .hide{
         display: none;
     }
 }
@@ -54,7 +54,7 @@ p{
     #gallery{
         grid-template-columns: 1fr 1fr 1fr;
     }
-    li{
+    .hide{
         display: inline;
         padding: 20px;
     }
