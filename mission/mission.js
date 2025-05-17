@@ -3,7 +3,9 @@ let elem = document.querySelector('select');
 elem.addEventListener('change', changetheme);
 
 var image = document.querySelector('img');
+
 function changetheme(){
+    
     let current = elem.value;
 
     if (current == 'dark'){
