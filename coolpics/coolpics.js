@@ -15,7 +15,7 @@ close.addEventListener('click', closeModal);
 function showModal(event){
     const clicked = event.target.closest('img');
     
-    const newSrc = clicked.src.split('-')[0] + '-full.jpeg';
+    const newSrc = clicked.src.split('norris')[0] + 'norris-full.jpeg';
 
     modalImage.src = newSrc
     console.log('ShowModal is runnig');
