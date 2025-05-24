@@ -1,0 +1,25 @@
+:root{
+--primary-color: #52489c;
+--secondary-color: #59c3c3;
+--accent-color: #f45b69;
+--text-dark: #333;
+--text-light: #ebebeb;
+--primary-font: Arial, Helvetica,sans-serif;
+--secondary-font: Mooli, san-serif;
+}
+header {
+    font-family: var(--primary-font);
+    font-size: 1.2em;
+    background-color: var(--primary-color);
+    text-align: right;
+    color: white;
+    max-width: 100%;
+}
+#nav{
+    list-style: none;
+    padding-left: 0;
+}
+li {
+    display: inline;
+    padding: 1.4fr;
+}
